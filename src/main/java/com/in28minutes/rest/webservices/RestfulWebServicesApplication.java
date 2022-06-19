@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestfulWebServicesApplication {
 
 	//http://localhost:8080/swagger-ui/index.html
+	//http://localhost:8080 for hal
 	public static void main(String[] args) {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
 	}
